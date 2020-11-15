@@ -365,15 +365,7 @@ a:hover {
     z-index: 2;
 }
 
-.top{
-    border-top: 1px solid rgb(163, 163, 163);
-    width:4em;
-}
-.bottom{
-    margin-top:4em;
-    border-bottom: 1px solid rgb(163, 163, 163);
-    width:4em;
-}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1070,10 +1062,20 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .commentaire-service{
+        margin-left:auto;
+        margin-right:auto;
+      }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .commentaire-service{
+        margin-left:auto;
+        margin-right:auto;
+      }
 }
