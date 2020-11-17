@@ -1055,6 +1055,15 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+
+    .commentaire-service{
+        margin-left:auto;
+        margin-right:auto;
+      }
 }
 
 @media (max-width: 400px) {
@@ -1069,13 +1078,3 @@ h4 {
       }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-
-    .commentaire-service{
-        margin-left:auto;
-        margin-right:auto;
-      }
-}
