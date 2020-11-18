@@ -1,5 +1,4 @@
 body {
-    width:100%;
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -89,7 +88,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-   
 }
 
 .texture-paper::before {
@@ -283,7 +281,6 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-    margin-bottom:3em;
 }
 
 #bloc-1-hero h1 {
@@ -364,7 +361,6 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -655,30 +651,9 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #424242!important;
+    color: #575757!important;
 }
 
- .citation{
-     margin-left:3.5em;
-     margin-right:2.5em;
-     font-size:20px;
-     font-style:italic;
- }
-
- .citation-autor{
-     font-size:14px;
- }
-
- .commentaire{
-     font-size:24px;
- }
-
- .commentaire-service{
-    font-size:22px;
-    padding-left:9em;
-    margin-right:9em;
-}
- 
 .container {
     max-width: 1000px;
 }
@@ -761,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #424242!important;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -803,13 +778,9 @@ h4 {
     color: #F3976C!important;
 }
 
-.tc-white-p2 {
-    color: #424242!important;
-}
-
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #424242!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -839,11 +810,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.jpg");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.jpg");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
@@ -851,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1055,15 +1026,6 @@ h4 {
         width: 180px;
         height: 320px;
     }
-
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-
-    .commentaire-service{
-        margin-left:auto;
-        margin-right:auto;
-      }
 }
 
 @media (max-width: 400px) {
@@ -1071,10 +1033,10 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-
-    .commentaire-service{
-        margin-left:auto;
-        margin-right:auto;
-      }
 }
 
+@media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+}

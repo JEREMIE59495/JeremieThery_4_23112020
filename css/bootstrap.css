@@ -6377,7 +6377,7 @@ button.list-group-item {
 .list-group-item.disabled,
 .list-group-item.disabled:focus,
 .list-group-item.disabled:hover {
-    color: rgb(2, 2, 2);
+    color: #777;
     cursor: not-allowed;
     background-color: #eee
 }
@@ -7682,7 +7682,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #0009;
+    background-color: #000/9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
